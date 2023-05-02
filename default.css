@@ -1,0 +1,13 @@
+:root {
+  --font-color-base: #677788;
+  --font-color-light: #828282;
+  --black: #000000;
+  --white: #FFFFFF;
+  --light-gray: #ECF2FF;
+  --blue: #2476FF;
+  --dark-blue: #20335B;
+  --green: #01C9A7;
+  --vector-light: #D9D9D970;
+  --vector-dark: #E1E7EF;
+
+  font-family: 'font-family: 'Inter', sans-serif;
