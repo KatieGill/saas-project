@@ -283,7 +283,7 @@
 }
 
 .play-banner {
-  background-image: url(assets/banners/banner_two.jpg);
+  background-image: url(../assets/banners/banner_two.jpg);
   background-color: var(--light-gray);
   height: 400px;
   background-position: center;
