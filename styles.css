@@ -1,0 +1,313 @@
+/*navbar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--size-20);
+}
+
+.header-logo,
+.nav,
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  max-width: 150px;
+}
+
+.nav-link {
+  margin: 0 var(--size-10);
+}
+
+.navbar-nav a {
+  color: var(--font-color-base);
+}
+
+.navbar-nav a:hover {
+  color: var(--blue);
+}
+
+.btn:hover {
+  font-weight: 700;
+}
+
+.nav .btn {
+  margin-left: var(--size-20);
+}
+
+/*hero section*/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--size-50);
+  margin-bottom: var(--size-150);
+}
+
+.hero-left,
+.hero-right {
+  width: 480px;
+  height: 400px;
+}
+
+.hero-left h1 {
+  font-size: var(--size-40);
+  font-weight: 500;
+  color: var(--black);
+  line-height: 48px;
+  margin-bottom: var(--size-10);
+}
+
+
+.hero-left .btn {
+  margin-right: var(--size-20);
+}
+
+.btn-play img {
+  width: 18px;
+  height: 18px;
+  margin-right: var(--size-10);
+}
+
+.hero-right {
+  display: flex;
+  position: relative;
+}
+
+.logo-icon {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: var(--white);
+  padding: 16px;
+  border-radius: 40px;
+  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+}
+
+.position-1 {
+  left: 64px;
+  top: 10px;
+}
+
+.position-2 {
+  left: 175px;
+  top: 10px;
+}
+
+.position-3 {
+  left: 380px;
+  top: 10px;
+}
+
+.position-4 {
+  left: 44px;
+  top: 172px;
+}
+
+.position-5 {
+  left: 276px;
+  top: 172px;
+}
+
+.position-6 {
+  left: 178px;
+  top: 290px;
+}
+
+.position-7 {
+  left: 364px;
+  top: 310px;
+}
+
+.logo-icon-sm {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+
+.hero-background {
+  width: 1024px;
+  height: 517px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+
+.vector-1 {
+  fill: #E1E7EF;
+  position: relative;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.vector-2 {
+  fill: url(#gradient1);
+  position: relative;
+  left: 0;
+  top: -524px;
+  z-index: -1;
+}
+
+.stop-1 { 
+  stop-color: rgba(217, 217, 217, 0.44);
+  stop-opacity: 0.18;
+}
+  
+.stop-2 {
+  stop-color: rgba(217, 217, 217, 1);
+  stop-opacity: 0.56
+}
+
+/*Benefits section*/
+.benefits {
+  margin-bottom: var(--size-100);
+}
+.title {
+  text-align: center;
+  margin-bottom: var(--size-50);
+}
+
+.title h2 {
+  color: var(--black);
+  font-size: var(--size-30);
+  margin-bottom: var(--size-10);
+}
+
+.title p {
+  font-size: var(--size-16);
+}
+
+.benefits-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(218.5px, 1fr));
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.benefit-item {
+  padding: 20px;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.item-img {
+  width: 48px;
+  height: 48px;
+}
+
+.benefit-item h3 {
+  color: var(--black);
+}
+
+.benefit-item > a {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.item-premium {
+  display: flex;
+  align-items: center;
+}
+
+.item-premium .btn {
+  margin-left: var(--size-10);
+}
+
+/*banner section*/
+.banner {
+  display: flex;
+  margin-bottom: var(--size-100);
+}
+
+.banner-left {
+  padding: 10px 30px;
+}
+
+.banner-left h2 {
+  font-size: var(--size-30);
+  font-weight: 500;
+  color: var(--black);
+  line-height: 1.2;
+}
+
+/*why front*/
+.why-front {
+  margin-bottom: var(--size-100);
+}
+
+.bullets-list,
+.bullets,
+.bullet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bullets {
+  flex-direction: column;
+}
+
+.line {
+  width: 90.5px;
+  height: 1px;
+  background-color: var(--light-gray);
+}
+
+.circle {
+  width: var(--size-50);
+  height: var(--size-50);
+  background-color: var(--light-gray);
+  border-radius: var(--size-50);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle span {
+  color: var(--blue);
+}
+
+.none {
+  color: transparent;
+}
+
+/*banner play*/
+.banner-frame {
+  position: relative;
+  margin-bottom: var(--size-50);
+}
+
+.play-banner {
+  background-image: url(assets/banners/banner_two.jpg);
+  background-color: var(--light-gray);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 964px;
+  margin: auto;
+}
+
+.play-btn {
+  width: 70px;
+  height: 70px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 172px;
+  left: 487px;
+}
+
+.play-btn img {
+  width: var(--size-20);
+  height: var(--size-20);
+}
