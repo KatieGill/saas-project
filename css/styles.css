@@ -13,7 +13,7 @@
 }
 
 .header-logo {
-  max-width: 150px;
+  max-width: var(--size-150);
 }
 
 .nav-link {
@@ -47,15 +47,15 @@
 
 .hero-left,
 .hero-right {
-  width: 480px;
-  height: 400px;
+  width: 30rem;
+  height: 30rem;
 }
 
 .hero-left h1 {
   font-size: var(--size-40);
   font-weight: 500;
   color: var(--black);
-  line-height: 48px;
+  line-height: 3rem;
   margin-bottom: var(--size-10);
 }
 
@@ -65,8 +65,8 @@
 }
 
 .btn-play img {
-  width: 18px;
-  height: 18px;
+  width: var(--size-18);
+  height: var(--size-18);
   margin-right: var(--size-10);
 }
 
@@ -76,63 +76,63 @@
 }
 
 .logo-icon {
-  width: 80px;
-  height: 80px;
+  width: var(--size-80);
+  height: var(--size-80);
   position: absolute;
   background: var(--white);
-  padding: 16px;
-  border-radius: 40px;
-  box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+  padding: var(--size-16);
+  border-radius: 50%;
+  box-shadow: 0rem 0.1875rem 0.8125rem rgba(0, 0, 0, 0.25);
 }
 
 .position-1 {
-  left: 64px;
-  top: 10px;
+  left: 4rem;
+  top: var(--size-10);
 }
 
 .position-2 {
-  left: 175px;
-  top: 10px;
+  left: 10.9375rem;
+  top: var(--size-10);
 }
 
 .position-3 {
-  left: 380px;
-  top: 10px;
+  left: 23.75rem;
+  top: var(--size-10);
 }
 
 .position-4 {
-  left: 44px;
-  top: 172px;
+  left: 2.75rem;
+  top: 10.75rem;
 }
 
 .position-5 {
-  left: 276px;
-  top: 172px;
+  left: 17.25rem;
+  top: 10.75rem;
 }
 
 .position-6 {
-  left: 178px;
-  top: 290px;
+  left: 11.125rem;
+  top: 18.125rem;
 }
 
 .position-7 {
-  left: 364px;
-  top: 310px;
+  left: 22.75rem;
+  top: 19.375rem;
 }
 
 .logo-icon-sm {
-  width: 60px;
-  height: 60px;
-  padding: 10px;
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: var(--size-10);
 }
 
 
 .hero-background {
-  width: 1024px;
-  height: 517px;
+  width: 64rem;
+  height: 32.3125;
   position: absolute;
   top: 0;
-  left: 250px;
+  left: 15.625rem;
 }
 
 .vector-1 {
@@ -147,7 +147,7 @@
   fill: url(#gradient1);
   position: relative;
   left: 0;
-  top: -524px;
+  top: -32.75rem;
   z-index: -1;
 }
 
@@ -182,21 +182,21 @@
 
 .benefits-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(218.5px, 1fr));
-  gap: 30px;
-  padding: 10px 0;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  gap: var(--size-30);
+  padding: var(--size-10) 0;
 }
 
 .benefit-item {
-  padding: 20px;
+  padding: var(--size-20);
   background-color: var(--white);
-  border: 1px solid var(--white);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border: 0.0625rem solid var(--white);
+  box-shadow: 0rem var(--size-10) var(--size-20) rgba(0, 0, 0, 0.15);
 }
 
 .item-img {
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
 }
 
 .benefit-item h3 {
@@ -224,7 +224,7 @@
 }
 
 .banner-left {
-  padding: 10px 30px;
+  padding: var(--size-10) var(--size-30);
 }
 
 .banner-left h2 {
@@ -252,8 +252,8 @@
 }
 
 .line {
-  width: 90.5px;
-  height: 1px;
+  width: 5.65625rem;
+  height: 0.0625rem;
   background-color: var(--light-gray);
 }
 
@@ -279,35 +279,105 @@
 /*banner play*/
 .banner-frame {
   position: relative;
-  margin-bottom: var(--size-50);
+  margin-bottom: var(--size-80);
 }
 
 .play-banner {
   background-image: url(../assets/banners/banner_two.jpg);
   background-color: var(--light-gray);
-  height: 400px;
+  height: 25rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 964px;
+  max-width: 60.25rem;
   margin: auto;
 }
 
 .play-btn {
-  width: 70px;
-  height: 70px;
+  width: var(--size-70);
+  height: var(--size-70);
   background-color: var(--white);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0rem 0rem var(--size-10) rgba(0, 0, 0, 0.25);
   position: absolute;
-  top: 172px;
-  left: 487px;
+  top: 10.75rem;
+  left: 30.4375rem;
 }
 
 .play-btn img {
   width: var(--size-20);
   height: var(--size-20);
+}
+
+/*hubspot feature*/
+.feature {
+  display: flex;
+  padding-bottom: var(--size-100);
+}
+
+.feature-left {
+  padding-left: 3.4375rem;
+  position: relative;
+  padding-bottom: 3.4375rem;
+}
+
+.feature-profile {
+  width: 23.1875rem;
+  height: 26.5625rem;
+}
+
+.feature-dots {
+  width: 12.5rem;
+  position: absolute;
+  left: 0;
+  top: 6.5rem;
+  z-index: -1;
+}
+
+.feature-right {
+  margin: auto;
+  padding-left: var(--size-50);
+  padding-right: var(--size-20);
+}
+
+.feature-logo {
+  max-width: var(--size-100);
+  margin-bottom: var(--size-20);
+}
+
+.feature-description p {
+  font-size: 1.375rem;
+  color: var(--black);
+  margin-bottom: var(--size-50);
+}
+
+.feature-person h3 {
+  font-size: var(--size-18);
+  color: var(--black);
+  margin-bottom: 0;
+}
+
+.feature-person p {
+  font-weight: 700;
+}
+
+/*brands*/
+.brands-section {
+  margin-bottom: var(--size-80);
+}
+
+.brands-section h2 {
+  text-align: center;
+}
+
+.brands {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--size-100), 1fr));
+}
+
+.brand {
+  padding: var(--size-20) var(--size-40);
 }
