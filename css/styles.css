@@ -381,3 +381,62 @@
 .brand {
   padding: var(--size-20) var(--size-40);
 }
+
+/*pricing*/
+.pricing-section {
+  margin-bottom: var(--size-150);
+}
+.pricing {
+  display: flex;
+}
+
+.price {
+  padding: var(--size-50) var(--size-20);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cost {
+  font-size: var(--size-20);
+  border-bottom: 1px solid var(--black);
+  padding-bottom: var(--size-30);
+  margin-bottom: var(--size-30);
+}
+
+.cost span {
+  font-size: var(--size-50);
+  color: var(--black);
+}
+
+.cost-detail {
+  font-size: 16px;
+  margin-bottom: var(--size-50);
+}
+
+.price .btn {
+  margin-bottom: var(--size-10);
+}
+
+.price-btn p {
+  font-size: 12px;
+}
+
+.plan-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--size-20);
+  margin-left: var(--size-20);
+}
+
+.plan-feature {
+  padding: var(--size-20);
+}
+
+.plan-feature-img {
+  width: var(--size-50);
+  height: var(--size-50);
+}
+
+.plan-feature h3 {
+  font-size: var(--size-18);
+  color: var(--black);
+}
