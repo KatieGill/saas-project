@@ -440,3 +440,64 @@
   font-size: var(--size-18);
   color: var(--black);
 }
+
+/*hire us*/
+.hire-us-section {
+  background-color: var(--dark-blue);
+}
+
+.hire-us-left {
+  padding-top: var(--size-150);
+  padding-left: var(--size-50);
+  padding-bottom: var(--size-100);
+}
+
+.hire-us h2 {
+  font-size: 26px;
+  color: var(--white);
+  margin-bottom: var(--size-10);
+}
+
+.hire-us p {
+  font-size: var(--size-16);
+  border-bottom: 1px solid var(--white);
+  padding-bottom: var(--size-14);
+  width: 180px;
+}
+
+.quote {
+  margin-bottom: var(--size-30);
+}
+
+.quote p:nth-child(1) {
+  font-size: var(--size-16);
+  color: var(--white);
+  font-style: italic;
+}
+
+.quote h3 {
+  margin-top: var(--size-70);
+  margin-bottom: 0;
+  font-size: var(--size-18);
+  color: var(--white);
+}
+
+.hire-us-imgs {
+  display: flex;
+  align-items: center;
+}
+
+.hire-us-img {
+  width: var(--size-40);
+  height: var(--size-40);
+  margin-right: var(--size-30);
+}
+
+.featured {
+  width: 60px;
+  height: 60px;
+}
+
+.hire-us-img img {
+  border-radius: 50%;
+}
