@@ -140,7 +140,6 @@
 .position-1 {
   left: 4rem;
   top: var(--size-10);
-  
 }
 
 .position-2 {
@@ -178,7 +177,6 @@
   height: 3.75rem;
   padding: var(--size-10);
 }
-
 
 .hero-background {
   width: 64rem;
@@ -612,7 +610,6 @@ textarea {
   line-height: 1.6;
 }
 
-
 .privacy a {
   color: var(--font-color-base);
   border-bottom: 0.0625rem dashed var(--font-color-base);
@@ -729,7 +726,6 @@ footer li a:hover {
   justify-content: center;
   border-radius: 0.3125rem;
 }
-
 
 .social-link:hover {
   color: var(--vector-dark);
