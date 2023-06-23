@@ -84,7 +84,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .hero-background {
     left: -35.625rem;
   }
@@ -182,9 +182,9 @@
   }
 
   .feature-dots {
-    width: 18.75rem;
+    width: 8.8125rem;
     left: 1rem;
-    top: 4.5rem;
+    top: 3.375rem;
   }
 
   .brands {
