@@ -37,7 +37,7 @@
   }
 
   .hero-background {
-    left: 13.75rem;
+    left: -14.25rem;
   }
 
   .hero-left,
@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 376px) {
   .hero-background {
-    left: -35.625rem;
+    left: -40.25rem;
   }
 
   .hero-left h1,
