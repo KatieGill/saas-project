@@ -46,7 +46,7 @@
 }
 
 .header-logo {
-  max-width: var(--size-150);
+  max-width: var(--size-50);
 }
 
 .nav-link {
@@ -345,7 +345,7 @@
 }
 
 .play-banner {
-  background-image: url(../assets/banners/banner_two.jpg);
+  background-image: url(../new-assets/banners/web-design.png);
   background-color: var(--light-gray);
   height: 25rem;
   background-position: center;
@@ -392,7 +392,7 @@
 }
 
 .feature-dots {
-  width: 12.5rem;
+  width: 23.5rem;
   position: absolute;
   left: 0;
   top: 6.5rem;
@@ -747,5 +747,12 @@ footer li a:hover {
   padding: var(--size-40) 0;
 }
 
+.attribution {
+  font-size: 12px;
+}
+
+.attribution a {
+  color: var(--font-color-base);
+}
 
 
